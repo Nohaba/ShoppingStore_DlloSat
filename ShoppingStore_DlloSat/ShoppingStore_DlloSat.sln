@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingStore_DlloSat", "ShoppingStore_DlloSat.csproj", "{C385EBEA-EF98-4BF4-B28A-9D61C2EADAAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C385EBEA-EF98-4BF4-B28A-9D61C2EADAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C385EBEA-EF98-4BF4-B28A-9D61C2EADAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C385EBEA-EF98-4BF4-B28A-9D61C2EADAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C385EBEA-EF98-4BF4-B28A-9D61C2EADAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECEC314C-C4B3-44BA-A474-AEDDBADDCA80}
+	EndGlobalSection
+EndGlobal
