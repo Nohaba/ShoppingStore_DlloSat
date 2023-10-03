@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using ShoppingStore_DlloSat.DAL;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Ya se puede crear la base de datos y usar la instancia SQL dentro del Visual
+builder.Services.AddDbContext<DataBaseContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
